@@ -7,21 +7,21 @@ public class FirstUnique
 
     public static void main(String... args)
     {
-        if (firstUnique("aabbcc").equals(""))
+        if (!firstUnique("aabbcc").equals(""))
             System.err.println("Error");
-        if (firstUnique("").equals(""))
+        if (!firstUnique("").equals(""))
             System.err.println("Error");
-        if (firstUnique("a").equals("a"))
+        if (!firstUnique("a").equals("a"))
             System.err.println("Error");
-        if (firstUnique("aaa").equals(""))
+        if (!firstUnique("aaa").equals(""))
             System.err.println("Error");
-        if (firstUnique("abcdabcde").equals("e"))
+        if (!firstUnique("abcdabcde").equals("e"))
             System.err.println("Error");
-        if (firstUnique("cdbacd").equals("b"))
+        if (!firstUnique("cdbacd").equals("b"))
             System.err.println("Error");
-        if (firstUnique("abcd").equals("a"))
+        if (!firstUnique("abcd").equals("a"))
             System.err.println("Error");
-        if (firstUnique("Aabcdbcd").equals("A"))
+        if (!firstUnique("Aabcdbcd").equals("A"))
             System.err.println("Error");
     }
 
